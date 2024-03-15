@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: #ffffff url('./images/jeans.png') no-repeat fixed center center / cover;
+
+}
+header{
+    background: #efdecd;
+    background: linear-gradient(270deg,#efdecd 0%, #ff66cc 95%);
+    background: -webkit-linear-gradient(270deg,#efdecd 0%, #ff66cc 95%);
+    background: -moz-linear-gradient(270deg,#efdecd 0%, #ff66cc 95%); 
+}
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    padding:40px;
+}
+nav{
+    background: #efdecd;
+}
+ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding:15px; 
+}
+li{
+    display:inline-block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+li a:hover{
+    color: #ffffff;
+    background-color: #ff66cc;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+main{
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+article{
+    display:flex;
+    flex-flow: column nowrap;
+    width: 450px;
+    position: sticky;
+    top: 0px;
+}
+h2{
+    font-family: "Roboto", sans-serif; 
+    font-weight: bold;
+    text-align: center;  
+    background:#e5e4e2;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    background:#e5e4e2;
+    text-align: left;
+    padding:5px 45px 5px;
+    font-size: 12px;
+}
+.indented{
+    text-indent: 1em; 
+}
+#bottom-padding{
+     padding-bottom: 40px;
+}
+section{
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-between; 
+}
+a.button:hover{
+    background-color: #ff66cc;
+}
+.button{
+    background: #e5e4e2;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 13px;      
+}
+.button:hover{
+    color: #ffffff;
+}
+.figure{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.figure figure{
+    background: #e5e4e2; 
+    padding:40px;
+    width: 450px;
+    height: auto;
+    margin-bottom: 40px;   
+} 
+footer{
+    background: #efdecd;
+    padding: 5px;
+    text-align: center;
+}
+#footer{
+    background-color: #efdecd;
+    text-align: center;
+    padding-top:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    
+}
+footer #icons li{
+    padding: 15px 20px;
+}
